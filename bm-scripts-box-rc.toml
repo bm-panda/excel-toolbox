@@ -1,0 +1,22 @@
+[bmscriptsbox]
+
+[bmscriptsbox.info]
+id = "b7bd7e2b-d17c-42c4-8cc3-607a0c8e317c"
+name = "Excel工具箱"
+desc = "离线Excel工具箱 | 一键启动内置ExcelPilot，27个表格常用功能全离线合并拆分、批量转CSV/Excel、清洗去重、透视汇总、公式填充、提供webui"
+version = "1.1.0"
+icon = "./imgs/logo.png"
+
+[bmscriptsbox.runtime]
+language = "python"
+language_version = ">=3.12"
+entry = "main.py"
+terminal = "never"
+
+[bmscriptsbox.triggers.context_menu]
+enabled = true
+targets = ["background"]
+
+[bmscriptsbox.triggers.shortcut]
+enabled = true
+input_type = ""

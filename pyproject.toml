@@ -1,0 +1,8 @@
+[project]
+name = "excel-toolbox"
+version = "1.1.0"
+description = "ExcelPilot 本地表格效率工具箱启动器（不忙脚本盒子）"
+requires-python = ">=3.12"
+dependencies = [
+    "excelpilot>=0.1.1",
+]
